@@ -1,6 +1,6 @@
 # Ansible Role: Kibana
 
-[![CI](https://github.com/geerlingguy/ansible-role-kibana/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-kibana/actions?query=workflow%3ACI)
+[![CI](https://github.com/buluma/ansible-role-kibana/actions/workflows/ci.yml/badge.svg)](https://github.com/buluma/ansible-role-kibana/actions/workflows/ci.yml) [![Release](https://github.com/buluma/ansible-role-kibana/actions/workflows/release.yml/badge.svg)](https://github.com/buluma/ansible-role-kibana/actions/workflows/release.yml)
 
 An Ansible Role that installs Kibana on RedHat/CentOS or Debian/Ubuntu.
 
@@ -53,7 +53,7 @@ None.
 
     - hosts: kibana
       roles:
-        - geerlingguy.kibana
+        - buluma.kibana
 
 ## License
 
@@ -61,4 +61,4 @@ MIT / BSD
 
 ## Author Information
 
-This role was created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+This role was created in 2021 by [Michael Buluma](https://www.guthub.com/buluma).
