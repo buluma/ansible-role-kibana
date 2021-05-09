@@ -1,0 +1,7 @@
+---
+
+- name: Playbook
+  gather_facts: false
+  hosts: kibana
+  roles:
+    - buluma.kibana

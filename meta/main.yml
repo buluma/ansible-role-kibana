@@ -1,0 +1,32 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: kibana
+  author: buluma
+  description: Kibana for Linux.
+  company: "Shadow Walker"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.0
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: Debian
+      versions:
+        - jessie
+    - name: Ubuntu
+      versions:
+        - precise
+        - trusty
+        - xenial
+  galaxy_tags:
+    - web
+    - system
+    - monitoring
+    - kibana
+    - elk
+    - efk
+    - logging
+    - dataviz
