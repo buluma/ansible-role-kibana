@@ -4,4 +4,4 @@
   gather_facts: false
   hosts: kibana
   roles:
-    - buluma.kibana
+    - role: buluma.kibana
