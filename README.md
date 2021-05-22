@@ -1,6 +1,6 @@
 # Ansible Role: Kibana
 
-[![CI](https://github.com/buluma/ansible-role-kibana/actions/workflows/ci.yml/badge.svg)](https://github.com/buluma/ansible-role-kibana/actions/workflows/ci.yml) [![Release](https://github.com/buluma/ansible-role-kibana/actions/workflows/release.yml/badge.svg)](https://github.com/buluma/ansible-role-kibana/actions/workflows/release.yml)
+[![CI](https://github.com/buluma/ansible-role-kibana/actions/workflows/ci.yml/badge.svg)](https://github.com/buluma/ansible-role-kibana/actions/workflows/ci.yml) [![Release](https://github.com/buluma/ansible-role-kibana/actions/workflows/release.yml/badge.svg)](https://github.com/buluma/ansible-role-kibana/actions/workflows/release.yml) ![Ansible Role](https://img.shields.io/ansible/role/d/54764?color=blue)
 
 An Ansible Role that installs Kibana on RedHat/CentOS or Debian/Ubuntu.
 
