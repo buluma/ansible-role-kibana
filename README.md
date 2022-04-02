@@ -2,9 +2,9 @@
 
 Kibana for Linux.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-kibana/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-kibana/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-kibana/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-kibana)|[![quality](https://img.shields.io/ansible/quality/54764)](https://galaxy.ansible.com/buluma/kibana)|[![downloads](https://img.shields.io/ansible/role/d/54764)](https://galaxy.ansible.com/buluma/kibana)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-kibana.svg)](https://github.com/buluma/ansible-role-kibana/releases/)|
+|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|---------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-kibana/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-kibana/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-kibana/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-kibana)|[![quality](https://img.shields.io/ansible/quality/54764)](https://galaxy.ansible.com/buluma/kibana)|[![downloads](https://img.shields.io/ansible/role/d/54764)](https://galaxy.ansible.com/buluma/kibana)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-kibana.svg)](https://github.com/buluma/ansible-role-kibana/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-kibana.svg)](https://github.com/buluma/ansible-role-kibana/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-kibana.svg)](https://github.com/buluma/ansible-role-kibana/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -26,7 +26,7 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
 
   post_tasks:
     - name: Ensure Kibana is running.
-      uri:
+      ansible.builtin.uri:
         url: http://127.0.0.1:5601/login
         status_code: 200
       register: result
@@ -79,9 +79,9 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|el|7, 8|
-|debian|jessie|
-|ubuntu|precise, trusty, xenial|
+|el|all|
+|debian|all|
+|ubuntu|all|
 
 The minimum version of Ansible required is 2.0, tests have been done to:
 
@@ -95,8 +95,8 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-license (BSD, MIT)
+Apache-2.0
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Michael Buluma](https://buluma.github.io/)
