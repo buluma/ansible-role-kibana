@@ -10,6 +10,7 @@
 
   roles:
     - role: buluma.elasticsearch
+      elasticsearch_type: elastic
     - role: ansible-role-kibana
 
   post_tasks:
