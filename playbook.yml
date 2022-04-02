@@ -1,5 +1,0 @@
----
-
-- hosts: kibana
-    roles:
-      - buluma.kibana
