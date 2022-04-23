@@ -1,0 +1,9 @@
+digraph PhiloDilemma {
+  label = "Michael Buluma" ;
+  overlap=false
+  {
+    "kibana" [fillcolor=yellow style=filled penwidth=3]
+    "buluma.elasticsearch" [fillcolor=green style=filled]
+  }
+  "kibana" -> "buluma.elasticsearch"
+}
