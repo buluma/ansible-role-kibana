@@ -1,4 +1,4 @@
 ---
 roles:
-  - name: elastic.elasticsearch
+  - name: robertdebock.elasticsearch
 collections:
