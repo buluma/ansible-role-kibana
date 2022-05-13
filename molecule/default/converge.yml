@@ -9,7 +9,7 @@
       when: ansible_os_family == 'Debian'
 
   roles:
-    - role: buluma.elasticsearch
+    - role: robertdebock.elasticsearch
       elasticsearch_type: elastic
     - role: ansible-role-kibana
 
