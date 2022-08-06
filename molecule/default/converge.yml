@@ -1,24 +1,8 @@
 ---
-- name: Converge
+- name: converge
   hosts: all
-  become: true
-
-  pre_tasks:
-    - name: Update apt cache.
-      apt: update_cache=true cache_valid_time=600
-      when: ansible_os_family == 'Debian'
+  become: yes
+  gather_facts: yes
 
   roles:
-    - role: buluma.elasticsearch
-      elasticsearch_type: elastic
     - role: ansible-role-kibana
-
-  post_tasks:
-    - name: Ensure Kibana is running.
-      ansible.builtin.uri:
-        url: http://127.0.0.1:5601/login
-        status_code: 200
-      register: result
-      until: result.status == 200
-      retries: 60
-      delay: 1
