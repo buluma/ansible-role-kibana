@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- Testing [\#8](https://github.com/buluma/ansible-role-kibana/pull/8) ([buluma](https://github.com/buluma))
 - Bump actions/setup-python from 2 to 3 [\#6](https://github.com/buluma/ansible-role-kibana/pull/6) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v0.1.0](https://github.com/buluma/ansible-role-kibana/tree/v0.1.0) (2022-04-05)
