@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-kibana/tree/HEAD)
+## [v0.1.2](https://github.com/buluma/ansible-role-kibana/tree/v0.1.2) (2022-08-16)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/v0.1.1...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/v0.1.1...v0.1.2)
 
 **Merged pull requests:**
 
