@@ -46,7 +46,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ---
 # Elastic offers both "oss" (Apache 2.0 license) and "elastic"
 # (Elastic license). Select the type here. Either "oss" or "elastic"
-kibana_type: oss
+kibana_type: elastic
 
 # The IP addres to bind on.
 kibana_server_host: "0.0.0.0"
