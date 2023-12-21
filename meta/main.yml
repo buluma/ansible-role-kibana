@@ -9,7 +9,7 @@ galaxy_info:
   platforms:
     - name: Amazon
       versions:
-        - all
+        - Candidate
     - name: Debian
       versions:
         - all
@@ -22,7 +22,6 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - focal
-        - bionic
   galaxy_tags:
     - web
     - system
