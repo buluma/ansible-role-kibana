@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.1.3](https://github.com/buluma/ansible-role-kibana/tree/v0.1.3) (2023-12-21)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.0.0...v0.1.3)
+
+## [2.0.0](https://github.com/buluma/ansible-role-kibana/tree/2.0.0) (2023-12-21)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/v0.1.2...2.0.0)
+
 ## [v0.1.2](https://github.com/buluma/ansible-role-kibana/tree/v0.1.2) (2022-08-16)
 
 [Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/v0.1.1...v0.1.2)
