@@ -33,7 +33,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
   roles:
     - role: buluma.bootstrap
     - role: buluma.core_dependencies
-    - role: robertdebock.elastic_repo
+    - role: buluma.elastic_repo
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -69,10 +69,10 @@ The following roles are used to prepare a system. You can prepare your system in
 
 | Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[robertdebock.elasticsearch](https://galaxy.ansible.com/buluma/robertdebock.elasticsearch)|[![Build Status GitHub](https://github.com/buluma/robertdebock.elasticsearch/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/robertdebock.elasticsearch/actions)|[![Version](https://img.shields.io/github/release/buluma/robertdebock.elasticsearch.svg)](https://github.com/shadowwalker/robertdebock.elasticsearch)|
+|[buluma.elasticsearch](https://galaxy.ansible.com/buluma/elasticsearch)|[![Build Status GitHub](https://github.com/buluma/ansible-role-elasticsearch/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-elasticsearch/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-elasticsearch.svg)](https://github.com/shadowwalker/ansible-role-elasticsearch)|
 |[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
 |[buluma.core_dependencies](https://galaxy.ansible.com/buluma/core_dependencies)|[![Build Status GitHub](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-core_dependencies.svg)](https://github.com/shadowwalker/ansible-role-core_dependencies)|
-|[robertdebock.elastic_repo](https://galaxy.ansible.com/buluma/robertdebock.elastic_repo)|[![Build Status GitHub](https://github.com/buluma/robertdebock.elastic_repo/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/robertdebock.elastic_repo/actions)|[![Version](https://img.shields.io/github/release/buluma/robertdebock.elastic_repo.svg)](https://github.com/shadowwalker/robertdebock.elastic_repo)|
+|[buluma.elastic_repo](https://galaxy.ansible.com/buluma/elastic_repo)|[![Build Status GitHub](https://github.com/buluma/ansible-role-elastic_repo/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-elastic_repo/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-elastic_repo.svg)](https://github.com/shadowwalker/ansible-role-elastic_repo)|
 
 ## [Context](#context)
 
