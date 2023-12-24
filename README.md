@@ -67,8 +67,6 @@ kibana_elasticsearch_hosts:
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-kibana.svg)](https://github.com/buluma/ansible-role-kibana/issues/)
-
 | Requirement | GitHub | Version |
 |-------------|--------|--------|
 |[buluma.elasticsearch](https://galaxy.ansible.com/buluma/elasticsearch)|[![Ansible Molecule](https://github.com/buluma/ansible-role-elasticsearch/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-elasticsearch/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-elasticsearch.svg)](https://github.com/shadowwalker/ansible-role-elasticsearch)|
