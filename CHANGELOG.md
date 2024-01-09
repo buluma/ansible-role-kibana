@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-kibana/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.1.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#26](https://github.com/buluma/ansible-role-kibana/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 3 to 4 [\#25](https://github.com/buluma/ansible-role-kibana/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [2.1.0](https://github.com/buluma/ansible-role-kibana/tree/2.1.0) (2024-01-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.0.1...2.1.0)
