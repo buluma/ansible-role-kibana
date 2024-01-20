@@ -2,7 +2,25 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-kibana/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.1.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.2.0...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#23](https://github.com/buluma/ansible-role-kibana/issues/23)
+- Update action [\#22](https://github.com/buluma/ansible-role-kibana/issues/22)
+- rebuild action [\#21](https://github.com/buluma/ansible-role-kibana/issues/21)
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#20](https://github.com/buluma/ansible-role-kibana/issues/20)
+- Update action [\#19](https://github.com/buluma/ansible-role-kibana/issues/19)
+- rebuild action [\#18](https://github.com/buluma/ansible-role-kibana/issues/18)
+- Need to fix Elasticsearch [\#2](https://github.com/buluma/ansible-role-kibana/issues/2)
+
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#27](https://github.com/buluma/ansible-role-kibana/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [2.2.0](https://github.com/buluma/ansible-role-kibana/tree/2.2.0) (2024-01-09)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.1.0...2.2.0)
 
 **Merged pull requests:**
 
