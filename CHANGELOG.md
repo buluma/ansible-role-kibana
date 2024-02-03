@@ -1,8 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-kibana/tree/HEAD)
+## [2.4.0](https://github.com/buluma/ansible-role-kibana/tree/2.4.0) (2024-01-20)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.2.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.3.0...2.4.0)
+
+## [2.3.0](https://github.com/buluma/ansible-role-kibana/tree/2.3.0) (2024-01-20)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.2.0...2.3.0)
 
 **Closed issues:**
 
@@ -34,27 +38,11 @@
 
 ## [2.0.1](https://github.com/buluma/ansible-role-kibana/tree/2.0.1) (2023-12-27)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/v0.1.3...2.0.1)
-
-## [v0.1.3](https://github.com/buluma/ansible-role-kibana/tree/v0.1.3) (2023-12-21)
-
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.0.0...v0.1.3)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.0.0...2.0.1)
 
 ## [2.0.0](https://github.com/buluma/ansible-role-kibana/tree/2.0.0) (2023-12-21)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/v0.1.2...2.0.0)
-
-## [v0.1.2](https://github.com/buluma/ansible-role-kibana/tree/v0.1.2) (2022-08-16)
-
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/v0.1.1...v0.1.2)
-
-**Merged pull requests:**
-
-- Testing [\#14](https://github.com/buluma/ansible-role-kibana/pull/14) ([buluma](https://github.com/buluma))
-
-## [v0.1.1](https://github.com/buluma/ansible-role-kibana/tree/v0.1.1) (2022-08-06)
-
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/v0.1.0...v0.1.1)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/1.0.2...2.0.0)
 
 **Closed issues:**
 
@@ -62,15 +50,9 @@
 
 **Merged pull requests:**
 
+- Testing [\#14](https://github.com/buluma/ansible-role-kibana/pull/14) ([buluma](https://github.com/buluma))
 - Testing [\#8](https://github.com/buluma/ansible-role-kibana/pull/8) ([buluma](https://github.com/buluma))
 - Bump actions/setup-python from 2 to 3 [\#6](https://github.com/buluma/ansible-role-kibana/pull/6) ([dependabot[bot]](https://github.com/apps/dependabot))
-
-## [v0.1.0](https://github.com/buluma/ansible-role-kibana/tree/v0.1.0) (2022-04-05)
-
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/1.0.2...v0.1.0)
-
-**Merged pull requests:**
-
 - Bump actions/checkout from 2 to 3 [\#4](https://github.com/buluma/ansible-role-kibana/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.2](https://github.com/buluma/ansible-role-kibana/tree/1.0.2) (2021-05-15)
