@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump release-drafter/release-drafter from 5 to 6 [\#30](https://github.com/buluma/ansible-role-kibana/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#29](https://github.com/buluma/ansible-role-kibana/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.4.0](https://github.com/buluma/ansible-role-kibana/tree/2.4.0) (2024-01-20)
