@@ -9,7 +9,7 @@ galaxy_info:
   platforms:
     - name: Amazon
       versions:
-        - all
+        - "2023"
     - name: Debian
       versions:
         - all
