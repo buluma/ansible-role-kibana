@@ -1,7 +1,7 @@
 ---
 - name: Include assert.yml
   ansible.builtin.import_tasks: assert.yml
-  run_once: yes
+  run_once: true
   delegate_to: localhost
 
 - name: Install kibana
@@ -23,4 +23,4 @@
   ansible.builtin.service:
     name: kibana
     state: started
-    enabled: yes
+    enabled: true

@@ -6,7 +6,7 @@
       - kibana_type is defined
       - kibana_type is string
       - kibana_type in [ "elastic", "oss" ]
-    quiet: yes
+    quiet: true
 
 - name: assert | Test if kibana_server_port is set correctly
   ansible.builtin.assert:
@@ -15,18 +15,18 @@
       - kibana_server_port is number
       - kibana_server_port >= 1
       - kibana_server_port <= 65536
-    quiet: yes
+    quiet: true
 
 - name: assert | Test if kibana_server_host is set correctly
   ansible.builtin.assert:
     that:
       - kibana_server_host is defined
       - kibana_server_host is string
-    quiet: yes
+    quiet: true
 
 - name: assert | Test if kibana_elasticsearch_hosts is set correctly
   ansible.builtin.assert:
     that:
       - kibana_elasticsearch_hosts is defined
       - kibana_elasticsearch_hosts is iterable
-    quiet: yes
+    quiet: true
