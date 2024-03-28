@@ -88,7 +88,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[Amazon](https://hub.docker.com/r/buluma/amazonlinux)|Candidate|
 |[Debian](https://hub.docker.com/r/buluma/debian)|all|
 |[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
 |[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
