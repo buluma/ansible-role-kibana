@@ -32,7 +32,6 @@
 
 - Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#28](https://github.com/buluma/ansible-role-kibana/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#27](https://github.com/buluma/ansible-role-kibana/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump actions/setup-python from 2 to 3 [\#6](https://github.com/buluma/ansible-role-kibana/pull/6) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.2.0](https://github.com/buluma/ansible-role-kibana/tree/2.2.0) (2024-01-09)
 
@@ -63,6 +62,7 @@
 
 - Testing [\#14](https://github.com/buluma/ansible-role-kibana/pull/14) ([buluma](https://github.com/buluma))
 - Testing [\#8](https://github.com/buluma/ansible-role-kibana/pull/8) ([buluma](https://github.com/buluma))
+- Bump actions/setup-python from 2 to 3 [\#6](https://github.com/buluma/ansible-role-kibana/pull/6) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 2 to 3 [\#4](https://github.com/buluma/ansible-role-kibana/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.2](https://github.com/buluma/ansible-role-kibana/tree/1.0.2) (2021-05-15)
