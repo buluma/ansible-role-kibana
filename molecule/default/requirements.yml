@@ -1,3 +1,2 @@
----
 roles:
-  - name: buluma.elasticsearch
+- name: buluma.elasticsearch
