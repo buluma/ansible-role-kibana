@@ -11,31 +11,33 @@ Kibana for Linux.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-kibana/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
-- become: true
-  gather_facts: true
-  hosts: all
-  name: Converge
-  pre_tasks:
-  - ansible.builtin.apt:
-      cache_valid_time: 600
-      update_cache: true
-    name: Update apt cache.
-    when: ansible_os_family == 'Debian'
-  roles:
-  - role: buluma.kibana
+---
+  - become: true
+    gather_facts: true
+    hosts: all
+    name: Converge
+    pre_tasks:
+      - ansible.builtin.apt:
+          cache_valid_time: 600
+          update_cache: true
+        name: Update apt cache.
+        when: ansible_os_family == 'Debian'
+    roles:
+      - role: buluma.kibana
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-kibana/blob/master/molecule/default/prepare.yml):
 
 ```yaml
-- become: true
-  gather_facts: false
-  hosts: all
-  name: Prepare
-  roles:
-  - role: buluma.bootstrap
-  - role: buluma.core_dependencies
-  - role: robertdebock.elastic_repo
+---
+  - become: true
+    gather_facts: false
+    hosts: all
+    name: Prepare
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.core_dependencies
+      - role: robertdebock.elastic_repo
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -45,8 +47,9 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-kibana/blob/master/defaults/main.yml):
 
 ```yaml
+---
 kibana_elasticsearch_hosts:
-- http://localhost:9200
+  - http://localhost:9200
 kibana_server_host: 0.0.0.0
 kibana_server_port: 5601
 kibana_type: elastic
