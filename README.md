@@ -49,7 +49,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ```yaml
 ---
 kibana_elasticsearch_hosts:
-- http://localhost:9200
+  - http://localhost:9200
 kibana_server_host: 0.0.0.0
 kibana_server_port: 5601
 kibana_type: elastic
@@ -103,3 +103,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
