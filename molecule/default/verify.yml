@@ -4,6 +4,6 @@
   hosts: all
   name: Verify
   tasks:
-  - ansible.builtin.wait_for:
-      port: 5601
-    name: Check if port 5601 is open
+    - ansible.builtin.wait_for:
+        port: 5601
+      name: Check if port 5601 is open

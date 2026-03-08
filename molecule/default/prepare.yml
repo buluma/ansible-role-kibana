@@ -4,6 +4,6 @@
   hosts: all
   name: Prepare
   roles:
-  - role: buluma.bootstrap
-  - role: buluma.core_dependencies
-  - role: robertdebock.elastic_repo
+    - role: buluma.bootstrap
+    - role: buluma.core_dependencies
+    - role: robertdebock.elastic_repo
