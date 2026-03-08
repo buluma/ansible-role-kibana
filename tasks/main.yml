@@ -16,6 +16,7 @@
     src: kibana.yml.j2
   notify:
     - Restart kibana
+  # Separator for the pre-commit handler parser.
 - name: Start kibana
   ansible.builtin.service:
     enabled: true
