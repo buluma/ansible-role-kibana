@@ -8,6 +8,7 @@
 
 - Bump docker/setup-buildx-action from 3 to 4 [\#39](https://github.com/buluma/ansible-role-kibana/pull/39) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 26.1.1 to 26.2.0 [\#37](https://github.com/buluma/ansible-role-kibana/pull/37) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/setup-python from 5 to 6 [\#36](https://github.com/buluma/ansible-role-kibana/pull/36) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 4 to 6 [\#35](https://github.com/buluma/ansible-role-kibana/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#31](https://github.com/buluma/ansible-role-kibana/pull/31) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#30](https://github.com/buluma/ansible-role-kibana/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -42,7 +43,6 @@
 
 **Merged pull requests:**
 
-- Bump actions/setup-python from 5 to 6 [\#36](https://github.com/buluma/ansible-role-kibana/pull/36) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#26](https://github.com/buluma/ansible-role-kibana/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#25](https://github.com/buluma/ansible-role-kibana/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
 
