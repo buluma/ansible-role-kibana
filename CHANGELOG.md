@@ -1,8 +1,12 @@
 # Changelog
 
+## [26.6.1](https://github.com/buluma/ansible-role-kibana/tree/26.6.1) (2026-06-15)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/26.6.0...26.6.1)
+
 ## [26.6.0](https://github.com/buluma/ansible-role-kibana/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.3.0...26.6.0)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.4.0...26.6.0)
 
 **Merged pull requests:**
 
@@ -14,13 +18,13 @@
 - Bump release-drafter/release-drafter from 5 to 6 [\#30](https://github.com/buluma/ansible-role-kibana/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#29](https://github.com/buluma/ansible-role-kibana/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 
-## [2.3.0](https://github.com/buluma/ansible-role-kibana/tree/2.3.0) (2024-01-20)
-
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.4.0...2.3.0)
-
 ## [2.4.0](https://github.com/buluma/ansible-role-kibana/tree/2.4.0) (2024-01-20)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.2.0...2.4.0)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.3.0...2.4.0)
+
+## [2.3.0](https://github.com/buluma/ansible-role-kibana/tree/2.3.0) (2024-01-20)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.2.0...2.3.0)
 
 **Closed issues:**
 
