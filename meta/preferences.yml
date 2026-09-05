@@ -12,8 +12,9 @@ platforms:
       # still uses ansible.builtin.apt_key, which trixie removed entirely
       # ("Failed to find required executable apt-key"). Its current
       # upstream HEAD hasn't been updated for this yet.
+      # Excludes 11: EOL, and nothing in this role or its dependencies
+      # requires it over 12.
       - "12"
-      - "11"
   # Fedora excluded entirely: Elastic's official repo doesn't publish
   # kibana packages for Fedora ("No package kibana available").
   - name: Ubuntu
