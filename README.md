@@ -86,7 +86,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
   roles:
     - role: buluma.bootstrap
     - role: buluma.core_dependencies
-    - role: robertdebock.elastic_repo
+    - role: buluma.elastic_repo
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -117,7 +117,7 @@ The following roles are used to prepare a system. You can prepare your system in
 |[buluma.elasticsearch](https://galaxy.ansible.com/buluma/elasticsearch)|[![Build Status GitHub](https://github.com/buluma/ansible-role-elasticsearch/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-elasticsearch/actions)|
 |[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|
 |[buluma.core_dependencies](https://galaxy.ansible.com/buluma/core_dependencies)|[![Build Status GitHub](https://github.com/buluma/ansible-role-core_dependencies/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-core_dependencies/actions)|
-|[robertdebock.elastic_repo](https://galaxy.ansible.com/buluma/robertdebock.elastic_repo)|[![Build Status GitHub](https://github.com/buluma/robertdebock.elastic_repo/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/robertdebock.elastic_repo/actions)|
+|[buluma.elastic_repo](https://galaxy.ansible.com/buluma/elastic_repo)|[![Build Status GitHub](https://github.com/buluma/ansible-role-elastic_repo/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-elastic_repo/actions/workflows/molecule.yml)|
 
 ## [Context](#context)
 
