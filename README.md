@@ -87,6 +87,10 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
     - role: buluma.bootstrap
     - role: buluma.core_dependencies
     - role: buluma.elastic_repo
+      vars:
+        elastic_repo_license: elastic
+        elastic_repo_apt_repo: "deb https://artifacts.elastic.co/packages/8.x/apt stable main"
+        elastic_repo_rpm_repo: "https://artifacts.elastic.co/packages/8.x/yum"
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
