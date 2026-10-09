@@ -8,17 +8,14 @@ platforms:
       - "9"
   - name: Debian
     versions:
-      # Excludes 13: the third-party robertdebock.elastic_repo dependency
-      # still uses ansible.builtin.apt_key, which trixie removed entirely
-      # ("Failed to find required executable apt-key"). Its current
-      # upstream HEAD hasn't been updated for this yet.
       # Excludes 11: EOL, and nothing in this role or its dependencies
       # requires it over 12.
+      - "13"
       - "12"
   # Fedora excluded entirely: Elastic's official repo doesn't publish
   # kibana packages for Fedora ("No package kibana available").
   - name: Ubuntu
     versions:
-      # Excludes 26.04 (resolute): same apt_key removal as Debian 13.
+      - "26.04"
       - "24.04"
       - "22.04"
