@@ -2,7 +2,16 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-kibana/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/26.9.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/26.10.9...HEAD)
+
+**Merged pull requests:**
+
+- \[codex\] Use Buluma elastic\_repo role [\#49](https://github.com/buluma/ansible-role-kibana/pull/49) ([buluma](https://github.com/buluma))
+- Bump release-drafter/release-drafter from 7.7.0 to 7.9.0 [\#48](https://github.com/buluma/ansible-role-kibana/pull/48) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [26.10.9](https://github.com/buluma/ansible-role-kibana/tree/26.10.9) (2026-10-04)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/26.9.0...26.10.9)
 
 **Merged pull requests:**
 
