@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 26.9.0 to 26.10.0 [\#51](https://github.com/buluma/ansible-role-kibana/pull/51) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 7.9.0 to 7.10.0 [\#50](https://github.com/buluma/ansible-role-kibana/pull/50) ([dependabot[bot]](https://github.com/apps/dependabot))
 - \[codex\] Use Buluma elastic\_repo role [\#49](https://github.com/buluma/ansible-role-kibana/pull/49) ([buluma](https://github.com/buluma))
 - Bump release-drafter/release-drafter from 7.7.0 to 7.9.0 [\#48](https://github.com/buluma/ansible-role-kibana/pull/48) ([dependabot[bot]](https://github.com/apps/dependabot))
