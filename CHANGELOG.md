@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 26.10.1 to 26.11.0 [\#53](https://github.com/buluma/ansible-role-kibana/pull/53) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 26.10.0 to 26.10.1 [\#52](https://github.com/buluma/ansible-role-kibana/pull/52) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 26.9.0 to 26.10.0 [\#51](https://github.com/buluma/ansible-role-kibana/pull/51) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 7.9.0 to 7.10.0 [\#50](https://github.com/buluma/ansible-role-kibana/pull/50) ([dependabot[bot]](https://github.com/apps/dependabot))
