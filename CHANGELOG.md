@@ -6,6 +6,8 @@
 
 **Merged pull requests:**
 
+- ANS-70: Fix changelog workflow [\#55](https://github.com/buluma/ansible-role-kibana/pull/55) ([buluma](https://github.com/buluma))
+- Bump release-drafter/release-drafter from 7.10.0 to 7.11.0 [\#54](https://github.com/buluma/ansible-role-kibana/pull/54) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 26.10.1 to 26.11.0 [\#53](https://github.com/buluma/ansible-role-kibana/pull/53) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 26.10.0 to 26.10.1 [\#52](https://github.com/buluma/ansible-role-kibana/pull/52) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 26.9.0 to 26.10.0 [\#51](https://github.com/buluma/ansible-role-kibana/pull/51) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -60,16 +62,6 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.2.0...2.3.0)
 
-**Closed issues:**
-
-- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#23](https://github.com/buluma/ansible-role-kibana/issues/23)
-- Update action [\#22](https://github.com/buluma/ansible-role-kibana/issues/22)
-- rebuild action [\#21](https://github.com/buluma/ansible-role-kibana/issues/21)
-- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#20](https://github.com/buluma/ansible-role-kibana/issues/20)
-- Update action [\#19](https://github.com/buluma/ansible-role-kibana/issues/19)
-- rebuild action [\#18](https://github.com/buluma/ansible-role-kibana/issues/18)
-- Need to fix Elasticsearch [\#2](https://github.com/buluma/ansible-role-kibana/issues/2)
-
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#28](https://github.com/buluma/ansible-role-kibana/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -95,10 +87,6 @@
 ## [2.0.0](https://github.com/buluma/ansible-role-kibana/tree/2.0.0) (2023-12-21)
 
 [Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/1.0.2...2.0.0)
-
-**Closed issues:**
-
-- test and add to tracker [\#1](https://github.com/buluma/ansible-role-kibana/issues/1)
 
 **Merged pull requests:**
 
