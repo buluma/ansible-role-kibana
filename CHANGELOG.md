@@ -2,10 +2,19 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-kibana/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/26.10.9...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/26.11.0...HEAD)
 
 **Merged pull requests:**
 
+- Regenerate files with ansible-generator [\#57](https://github.com/buluma/ansible-role-kibana/pull/57) ([buluma](https://github.com/buluma))
+
+## [26.11.0](https://github.com/buluma/ansible-role-kibana/tree/26.11.0) (2026-11-22)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/26.10.9...26.11.0)
+
+**Merged pull requests:**
+
+- Update CHANGELOG.md [\#56](https://github.com/buluma/ansible-role-kibana/pull/56) ([github-actions[bot]](https://github.com/apps/github-actions))
 - ANS-70: Fix changelog workflow [\#55](https://github.com/buluma/ansible-role-kibana/pull/55) ([buluma](https://github.com/buluma))
 - Bump release-drafter/release-drafter from 7.10.0 to 7.11.0 [\#54](https://github.com/buluma/ansible-role-kibana/pull/54) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 26.10.1 to 26.11.0 [\#53](https://github.com/buluma/ansible-role-kibana/pull/53) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -42,7 +51,7 @@
 
 ## [26.6.0](https://github.com/buluma/ansible-role-kibana/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.4.0...26.6.0)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.3.0...26.6.0)
 
 **Merged pull requests:**
 
@@ -54,13 +63,13 @@
 - Bump release-drafter/release-drafter from 5 to 6 [\#30](https://github.com/buluma/ansible-role-kibana/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#29](https://github.com/buluma/ansible-role-kibana/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 
-## [2.4.0](https://github.com/buluma/ansible-role-kibana/tree/2.4.0) (2024-01-20)
-
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.3.0...2.4.0)
-
 ## [2.3.0](https://github.com/buluma/ansible-role-kibana/tree/2.3.0) (2024-01-20)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.2.0...2.3.0)
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.4.0...2.3.0)
+
+## [2.4.0](https://github.com/buluma/ansible-role-kibana/tree/2.4.0) (2024-01-20)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kibana/compare/2.2.0...2.4.0)
 
 **Merged pull requests:**
 
